@@ -1,0 +1,47 @@
+.nav__logo {
+    width: 400px;
+    height: 34px;
+}
+
+.nav__title {
+    font-size: 2.8rem;
+}
+.nav__p, .first__p, .second__p, .fourth__p-title {
+    font-size: 1.6rem;
+}
+.nav-buttom {
+    transform: scale(1.1);
+}
+.first__Img {
+    width: 250px;
+    height: 250px;
+    background: url('/assets/imgs/Bitcoin-2x.png') no-repeat center;
+    background-size: contain;
+}
+
+.third {
+    background: url(/assets/imgs/bitcoinbaby-2x.jpg) no-repeat center;
+    background-size: cover;
+}
+.third__h2, .fourth__title {
+    font-size: 2.8rem;
+}
+.fourth-m {
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.fourth-m__article {
+    margin: auto 0;
+}
+
+.fourth-m__buttom:hover {
+    box-shadow: 3px 3px 8px rgba(247 147 26 / 60%)
+}
+.fourth-m__article {
+    transition: transform .6s ease;
+}
+.fourth-m__article:hover{
+    transform: scale(1.1);
+}
